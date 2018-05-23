@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="3dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="end"
+        android:background="@android:color/transparent"
+        android:padding="3dp">
+        <TextView
+            android:id="@+id/float_menu_item_tv_label"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Label"
+            android:layout_gravity="center_vertical|end"
+            android:textAlignment="textEnd"
+            />
+        <View
+            android:layout_width="10dp"
+            android:layout_height="match_parent"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/float_menu_item_fab_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_add_black_24dp"
+            android:tint="@color/colorAccent"
+            android:backgroundTint="@color/colorPrimary"
+            android:padding="5dp"
+            app:fabSize="mini"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

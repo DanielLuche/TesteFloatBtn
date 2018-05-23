@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FloatMenuItem">
+        <attr name="mItemLabel" format="string"/>
+        <!--<attr name="mIcon" format="reference" />-->
+        <!--<attr name="mIconColor" format="integer"/>-->
+        <!--<attr name="mBackgroundLabelColor" format="integer"/>-->
+        <!--<attr name="mBackgroundIconColor" format="integer"/>-->
+        <attr name="mIconSize" format="enum" localization="suggested">
+            <enum name="Mini" value="1"/>
+            <enum name="Normal" value="0"/>
+            <enum name="Auto" value="-1"/>
+        </attr>
+
+    </declare-styleable>
+
+
+</resources>
